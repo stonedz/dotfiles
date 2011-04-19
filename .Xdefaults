@@ -1,0 +1,26 @@
+URxvt.depth:      32
+urxvt*font:*-*-fixed-medium-r-normal--*-110-*-*-*-*-iso8859-1
+urxvt*boldFont:*-*-fixed-bold-r-normal--*-*-110-*-*-*-*-iso8859-1
+urxvt*cursorColor:        #ffcc00
+urxvt*background: rgba:1111/1111/1111/dddd
+urxvt*foreground:         #eaeaea
+urxvt*tintColor:          black
+!set to 32-bit for real transparency (compositing required)
+!urxvt*depth:             24
+!save n lines of scrollback buffer
+urxvt*saveLines:          32767
+!flash screen for attention
+urxvt*visualBell:         true
+!jump to bottom (prompt) on keypress
+urxvt*scrollTtyKeypress:  true
+!jump to bottom (prompt) when tty gets new lines
+urxvt*scrollWithBuffer:   false
+!jump to bottom (prompt) on tty output
+urxvt*scrollTtyOutput:    false
+!toggle scrollbar
+urxvt*scrollBar:          false
+!scrollbar styles: rxvt, plain, next or xterm
+urxvt*scrollstyle:        plain
+!scrollbar alignment
+urxvt*scrollBar_right:    true
+urxvt*scrollColor:        #777777
