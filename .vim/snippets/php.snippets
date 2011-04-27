@@ -106,8 +106,8 @@ snippet doc_f
 	 * @return ${5:void}
 	 * @author ${6:`g:snips_author`}
 	 **/
-	${1}function ${2}(${3})
-	{${7}
+	${1}function ${2}(${3}){
+		${7}
 	}
 # Header
 snippet doc_h
@@ -214,3 +214,15 @@ snippet fun
 # $... = array (...)
 snippet array
 	$${1:arrayName} = array('${2}' => ${3});${4}
+	
+# Alfaweb header
+snippet doc_alfa
+	/**
+	 * ${1}
+	 *
+	 * @author ${2:`g:snips_author`}
+	 * @version ${3:Beta}
+	 * @copyright ${4:Alfaweb}, `strftime('%d %B, %Y')`
+	 **/
+
+	 ${5}

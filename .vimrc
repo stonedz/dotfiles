@@ -11,6 +11,8 @@ highlight Pmenu ctermbg=238 gui=bold
 let g:SuperTabDefaultCompletionType = "context"
 set completeopt=longest,menuone
 
+"snipMate
+let g:snips_author = "Paolo Fagni <paolo.fagniATgmail.com>"
 
 "YankRing
 nnoremap <silent> <F11> :YRShow<CR>
