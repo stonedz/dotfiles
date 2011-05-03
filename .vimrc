@@ -30,6 +30,7 @@ let g:mapleader = "²"
 
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 au BufRead,BufNewFile *.php set filetype=php.html
+au BufRead,BufNewFile *.tpl set filetype=smarty.html
 
 "colorscheme wombat
 colorscheme desert256
