@@ -1,4 +1,4 @@
-URxvt.depth:      32
+!URxvt.depth:      32
 urxvt*font:*-*-fixed-medium-r-normal--*-110-*-*-*-*-iso8859-1
 urxvt*boldFont:*-*-fixed-bold-r-normal--*-*-110-*-*-*-*-iso8859-1
 urxvt*cursorColor:        #ffcc00

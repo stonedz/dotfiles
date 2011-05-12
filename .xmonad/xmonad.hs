@@ -87,7 +87,7 @@ urgentConfig = UrgencyConfig { suppressWhen = Focused, remindWhen = Dont }
 -- borders
 borderWidth' = 1
 normalBorderColor'  = "#333333"
-focusedBorderColor' = "#AFAF87"
+focusedBorderColor' = "#E82F00"
 
 -- tabs
 tabTheme1 = defaultTheme { decoHeight = 16
@@ -104,7 +104,8 @@ workspaces' = ["1:work", "2:console", "3:web", "4:mail", "5:music", "6", "7", "8
 layoutHook' = tile ||| mtile ||| tab ||| full
   where
     rt = ResizableTall 1 (2/100) (1/2) []
-    tile = named "[]=" $ smartBorders rt
+    {-tile = named "[]=" $ smartBorders rt-}
+    tile = named "[]=" $ rt
     mtile = named "M[]=" $ smartBorders $ Mirror rt
     tab = named "T" $ noBorders $ tabbed shrinkText tabTheme1
     full = named "[]" $ noBorders Full 
